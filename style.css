@@ -23,5 +23,79 @@ body {
   font-weight: 400;
 }
 
-.wrapper {
+@media screen and (max-width: 1440px) {
+  .wrapper {
+    background-color: hsl(0, 100%, 74%);
+
+    background-position: fit;
+    background-repeat: none;
+    width: 100vw;
+    height: 100vh;
+  }
+  .container {
+    background-image: url(./imgs/bg-intro-desktop.png);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .content {
+    width: 80%;
+    height: 80%;
+    display: flex;
+  }
+
+  .greetings {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 50%;
+    height: 100vh;
+    padding: 20px;
+  }
+
+  .form {
+    width: 50%;
+    height: 100vh;
+    padding: 20px;
+  }
+
+  .greetings > h1 {
+    color: #ffffff;
+    font-size: 46px;
+    line-height: 50px;
+  }
+
+  .greetings > p {
+    color: #ffffff;
+    margin-top: 2em;
+  }
+
+  .form_title {
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 10px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 8px 5px hsl(249, 10%, 26%);
+  }
+
+  .form_title {
+    color: hsl(246, 25%, 77%);
+  }
+
+  .form_title > h3 > span {
+    color: #ffffff;
+  }
+
+  .main_form {
+    height: 70%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+  }
 }
