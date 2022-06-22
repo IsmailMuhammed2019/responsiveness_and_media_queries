@@ -21,12 +21,14 @@
 body {
   font-family: poppins;
   font-weight: 400;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 1440px) {
   .wrapper {
     background-color: hsl(0, 100%, 74%);
-
     background-position: fit;
     background-repeat: none;
     width: 100vw;
@@ -122,5 +124,17 @@ body {
     background-color: hsl(154, 59%, 51%);
     border: none;
     width: 100%;
+  }
+
+  .lastp {
+    font-size: medium;
+    text-align: center;
+    color: hsl(249, 10%, 26%);
+    margin-top: 15px;
+  }
+
+  .lastp > span {
+    color: tomato;
+    font-size: medium;
   }
 }
