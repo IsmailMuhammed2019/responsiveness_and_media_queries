@@ -44,7 +44,7 @@ body {
 
   .content {
     width: 80%;
-    height: 80%;
+    height: 90%;
     display: flex;
   }
 
@@ -55,12 +55,8 @@ body {
     width: 50%;
     height: 100vh;
     padding: 20px;
-  }
-
-  .form {
-    width: 50%;
-    height: 100vh;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
   }
 
   .greetings > h1 {
@@ -73,7 +69,16 @@ body {
     color: #ffffff;
     margin-top: 2em;
   }
-
+  .form {
+    width: 50%;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
   .form_title {
     background-color: hsl(248, 32%, 49%);
     border-radius: 10px;
@@ -82,6 +87,7 @@ body {
     margin-bottom: 30px;
     padding: 20px;
     box-shadow: 0px 8px 5px hsl(249, 10%, 26%);
+    width: 100%;
   }
 
   .form_title {
@@ -93,9 +99,28 @@ body {
   }
 
   .main_form {
-    height: 70%;
+    height: 500px;
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  input {
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    height: 60px;
+    width: 100%;
+  }
+  .btn {
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    width: 100%;
   }
 }
