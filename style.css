@@ -37,7 +37,7 @@ body {
 }
 
 .btn:hover{
-  pointer: mouse;
+  cursor: pointer;
   background-color: light-green;
 }
 @media screen and (max-width: 1440px) {
